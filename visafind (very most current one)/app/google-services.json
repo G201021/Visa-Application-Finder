@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "908933972486",
+    "project_id": "visa-finder-d68a3",
+    "storage_bucket": "visa-finder-d68a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908933972486:android:a01d95eddeaff62366b987",
+        "android_client_info": {
+          "package_name": "com.example.visafind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBarRoQOiuOBIINN89-tCac4HlM_5BBgF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

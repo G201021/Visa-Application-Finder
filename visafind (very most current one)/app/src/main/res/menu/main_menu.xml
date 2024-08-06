@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Back to login"
+            android:icon="@drawable/log_out_icon"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="log-out"
+            android:icon="@drawable/log_out_icon"/>
+
+        <item
+            android:id="@+id/nav_bus"
+            android:title="Application status"
+            android:icon="@drawable/log_out_icon"/>
+
+        <item
+            android:id="@+id/nav_plane"
+            android:title="Settings"
+            android:icon="@android:drawable/ic_menu_preferences"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="profile">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Account"
+                    android:icon="@android:drawable/ic_menu_myplaces"/>
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Renew passport"
+                    android:icon="@drawable/log_out_icon"/>
+
+                <item
+                    android:id="@+id/nav_getvisa"
+                    android:title="Get Visa"
+                    android:icon="@drawable/log_out_icon"/>
+
+            </menu>
+
+        </item>
+
+
+
+    </group>
+
+    <item android:title="communicate">
+
+        <menu>
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:title="About Us"
+                android:icon="@android:drawable/ic_menu_info_details"/>
+
+            <item
+                android:id="@+id/nav_contact"
+                android:title="Contact"
+                android:icon="@android:drawable/ic_menu_call"/>
+        </menu>
+
+    </item>
+
+</menu>
